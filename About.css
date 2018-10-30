@@ -1,0 +1,43 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    margin: 0;
+    background-image: url('Cover1.jpg');
+    min-height: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+}
+.w3-text-white, .w3-hover-text-white:hover {
+    color: #fff;
+}
+p{
+	color:white;
+	size:20px;
+	font-size:20px;
+	margin-left:30px;
+	margin-right:30px;
+}
+.button {
+    position: absolute;
+    left: 45%;
+    top: 85%;
+    width: 10%;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Shabrina Free;
+    font-size: 28px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button {
+    background-color: rgba(0, 0, 0, 0.2);; 
+    color: White; 
+    border: 3px solid #fff;
+}
