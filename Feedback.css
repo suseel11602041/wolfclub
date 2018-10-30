@@ -1,0 +1,38 @@
+body  {
+  background-image: url("cover1.jpg");
+  background-size: cover;
+}
+.container {
+  margin: auto;
+  position: absolute;
+  top: 7%;
+  left: 25%;
+  width: 640px;
+}
+.Center {
+text-align:center;
+font-family: Agency FB;
+font-size: 16px;
+}
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.login h1 {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: Agency FB;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  background: #f3f3f3;  
+}
+input.placeholder {
+    text-align: center;
+}
