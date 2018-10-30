@@ -1,0 +1,146 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+ul {
+    width: 100%;   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(top, #FF0051, #BC013F);
+    z-index: 9999;
+    position: fixed;
+}
+
+li {
+    float: left;
+    display: inline;
+    
+}
+ 
+li a{
+    text-decoration: none;
+    font-family: Y2K Bug; 
+    font-size: 16px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    
+}
+ 
+li a:hover{ 
+    background-color: #fff; 
+    color: #000;
+}
+ 
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("IMG1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("IMG2.jpg");
+  min-height: 400px;
+  opacity: 0.7;
+}
+.bgimg-3 {
+  background-image: url("IMG3.jpg");
+  min-height: 400px;
+  opacity: 0.7;
+}
+.bgimg-4 {
+  background-image: url("IMG4.jpg");
+  min-height: 330px;
+}
+.button {
+    position: absolute;
+    left: 45%;
+    top: 85%;
+    width: 10%;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Shabrina Free;
+    font-size: 28px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button {
+    background-color: rgba(0, 0, 0, 0.2);; 
+    color: White; 
+    border: 3px solid #fff;
+}
+.button:hover {
+    background-color: #fff;
+    color: black;
+}
+.caption {
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  z-index: 9999;
+}
+.caption-1 {
+  position: absolute;
+  opacity: 1;
+  top: 13%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Agency FB ;
+  font-size: 32px;
+  }
+.column {
+  float : left;
+  width: 100%;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.grid {
+    padding: 0 8px;
+   text-align: center;
+}
+.elements {
+    border: 6px solid white;;
+    float: left; 
+    width: 23.6%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 30px "Lato", sans-serif;
+  color: #111
+}
+h2 {
+  letter-spacing: 1px;
+  font: 28px "Lato", Agency FB;
+  color: #111
+}
